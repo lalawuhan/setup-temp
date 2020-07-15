@@ -9,6 +9,7 @@ export default function Home(props) {
   return (
     <div>
       <img src={props.home.data.image.url} alt="avatar" width="240px" />
+      <h1>NEXT JS ONLY</h1>
       <h1>{RichText.asText(props.home.data.headline)}</h1>
       <p>{RichText.asText(props.home.data.description)}</p>
       <ul>
